@@ -36,4 +36,4 @@
 1、引入bootstrap
 2、实现商品列表UI原形
 3、体验了bootstrap脚本功能
-4、引入了showDialog脚本111
+4、引入了showDialog脚本
