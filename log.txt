@@ -1,4 +1,4 @@
-第一天
+﻿第一天
 1、建立两张表news和user
 2、新建了index.php
 3、项目域名longsheng.com
@@ -36,4 +36,4 @@
 1、引入bootstrap
 2、实现商品列表UI原形
 3、体验了bootstrap脚本功能
-4、引入了showDialog脚本
+4、引入了showDialog脚本111
