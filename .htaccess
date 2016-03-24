@@ -1,0 +1,10 @@
+ <ifmodule mod_rewrite.c>
+    RewriteEngine On
+    
+  RewriteRule ^css/(.*) /MVC/V/v1/css/$1
+   RewriteRule ^js/(.*) /MVC/V/v1/js/$1
+    RewriteCond %{QUERY_STRING} ^(.*)
+    RewriteRule ^([a-z]{2,10})/([a-z]{3,20})/$ /index.php?control=$1&action=$2&%1
+  
+  
+  </ifmodule>

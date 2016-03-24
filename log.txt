@@ -1,0 +1,39 @@
+第一天
+1、建立两张表news和user
+2、新建了index.php
+3、项目域名longsheng.com
+
+
+第二天
+1、下载NotORM
+2、开启了mysql_pdo
+3、测试了NotORM单表操作
+4、NotORM的官方地址是http://www.notorm.com/
+5、建立了相应的配置项，如数据库用户名，密码,DSN等
+
+第三天：
+1、建立目录结构包含
+ 	1）M放置MODEL 主要和数据对象进行映射 后缀.m
+ 	2）C 全站控制文件，譬如取数据源 判断参数来执行业务逻辑 后缀.c
+ 	3）V 就是美工干的静态页面 后缀.tpl 目前使用的是v1版本
+ 
+ 第四天
+ 1、建立C的主文件 _Main.c
+ 2、任何子类都必须继承_Main.c
+ 3、建立两个模板方法
+ 	1）setViewName 设置需要加载的业务模板
+ 	2）addObject 设置需要加载的变量（这里用到了PHP extract函数）
+ 4、_Main.c	拥有run方法，执行mvc架构的所有事宜 
+第五天
+1、加入了memcached，实现了页面数据缓存
+2、实现了简单的Model和NotOrm进行交互
+第六天
+1、完成单变量解析
+2、完成循环变量解析
+3、加入自定义函数功能
+4、完成include方法
+第七天
+1、引入bootstrap
+2、实现商品列表UI原形
+3、体验了bootstrap脚本功能
+4、引入了showDialog脚本
